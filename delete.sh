@@ -1,0 +1,1 @@
+gcloud compute instances delete voiceinsights-vm --zone=europe-west1-b --quiet

@@ -25,6 +25,7 @@ gcloud compute ssh $VM --zone=$ZONE --command="
 
 gcloud compute scp ./main.py $VM:~ --zone=$ZONE
 
+#otwarcie na świat
 gcloud compute firewall-rules create allow-8080 \
   --allow=tcp:8080 \
   --target-tags=voiceinsights 2>/dev/null || true
