@@ -85,3 +85,6 @@ def wyniki():
         "SELECT * FROM voiceinsights.transkrypcje ORDER BY data DESC LIMIT 10"
     ).result()
     return [dict(r) for r in rows]
+
+
+
