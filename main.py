@@ -1,4 +1,3 @@
-# Deploy: Wed May 20 06:29:35 PM UTC 2026
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from google.cloud import speech, bigquery, storage
 from datetime import datetime, timezone
