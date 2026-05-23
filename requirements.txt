@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+google-cloud-speech
+google-cloud-bigquery
+google-cloud-storage
+python-multipart
